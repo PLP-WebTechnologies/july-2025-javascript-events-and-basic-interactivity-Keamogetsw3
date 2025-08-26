@@ -46,3 +46,17 @@ form {
     padding: 20px;
     border-radius: 8px;
 }
+
+.dark-mode {
+    background-color: #222;
+    color: #eee;
+}
+
+.dark-mode header {
+    background-color: #333;
+}
+
+.dark-mode section {
+    background-color: #444;
+    color: #eee;
+}
