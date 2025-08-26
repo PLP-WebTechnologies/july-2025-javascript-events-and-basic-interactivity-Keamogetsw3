@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Our catering offers fresh, tasty, and nutritious food for any occasion.">
+    <title>Keamo's Catering</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Keamo's Catering</h1>
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#menu">Menu</a>
+            <a href="#Bookings">Booking</a>
+            <a href="#contact-us">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Keamo's catering services where your events are brought to life with custom-tailored menus and exceptional service.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <p>We offer diverse catering options. Explore our menus below:</p>
+
+        <h3>Meat Menu</h3>
+        <p>We offer a wide range of meat options.</p>
+        <a href="meat.html">
+            <img src="images/meat.jpeg" alt="Meat dishes">
+        </a>
+
+        <h3>Finger Snacks</h3>
+        <p>We offer perfect starter meals for any occasion.</p>
+        <a href="fingersnacks.html">
+            <img src="images/fingersnacks.jpeg" alt="Finger snacks">
+        </a>
+
+        <h3>Platters</h3>
+        <p>We offer tasty and visually appealing platters.</p>
+        <a href="platters.html">
+            <img src="images/platters.jpeg" alt="Food platters">
+        </a>
+    </section>
+
+    <section id="contact-us">
+        <h2>Contact</h2>
+        <p>If you have any queries, please reach out to us:</p>
+        <p>Email: <a href="mailto:info@keamoscatering.co.za">info@keamoscatering.co.za</a></p>
+        <p>Phone: +27 79 358 7567</p>
+        <p>Location: Johannesburg, South Africa</p>
+    </section>
+
+    <section id="Bookings">
+        <h2>Book Us</h2>
+        <p>Fill in the form below to book us:</p>
+        <form action="" method="POST">
+            <h2>Event Booking Form</h2>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="event">Select Event:</label>
+            <select id="event" name="event" required>
+                <option value="">--Please choose an event--</option>
+                <option value="wedding">Wedding</option>
+                <option value="kidsparty">Kid's Party</option>
+                <option value="workshop">Workshop</option>
+                <option value="conference">Business Conference</option>
+            </select><br><br>
+
+            <label for="date">Event Date:</label>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <label for="people">Number of People:</label>
+            <input type="number" id="people" name="people" min="5" required><br><br>
+
+            <label for="message">Additional Message or Requests:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+            <input type="submit" value="Book Now">
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Keamo's Catering | All rights reserved.</p>
+    </footer>
+</body>
+</html>
